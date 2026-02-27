@@ -193,5 +193,4 @@ pytest smart-campus-analytics/tests/ -v --tb=short
 
 ## 👤 Author
 
-Built with 🧠 by a Senior Data + ML + Backend Engineer as a consulting-grade reference implementation.
-*Enterprise AI · Analytics · Decision Intelligence*
+Built with Ashik Sharon M
