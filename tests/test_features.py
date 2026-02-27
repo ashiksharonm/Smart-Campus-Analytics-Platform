@@ -1,13 +1,11 @@
 """Tests for src/features/engineer.py"""
 
-import pandas as pd
-import pytest
 import sys
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 
-from src.features.engineer import (
+from src.features.engineer import (  # noqa: E402
     add_academic_risk_score,
     add_attendance_volatility,
     add_composite_dropout_risk,

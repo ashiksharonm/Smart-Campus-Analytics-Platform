@@ -1,14 +1,13 @@
 """Tests for preprocessing/clean.py"""
 
 import numpy as np
-import pandas as pd
 import pytest
 import sys
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 
-from src.preprocessing.clean import (
+from src.preprocessing.clean import (  # noqa: E402
     cap_outliers_iqr,
     clean,
     enforce_types,

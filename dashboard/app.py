@@ -7,7 +7,6 @@ import json
 import sys
 from pathlib import Path
 
-import numpy as np
 import pandas as pd
 import plotly.express as px
 import plotly.graph_objects as go
@@ -582,6 +581,7 @@ elif page == "📈 Insights & Recommendations":
 
     # ── Segment analysis
     st.markdown('<div class="section-header">📌 At-Risk Segment Profiles</div>', unsafe_allow_html=True)
+
     def risk_tier(row):
         if row["composite_dropout_risk"] > 0.60:
             return "High Risk"
