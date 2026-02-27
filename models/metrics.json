@@ -1,0 +1,218 @@
+{
+  "logistic_regression": {
+    "roc_auc": 0.8484,
+    "precision": 0.2347,
+    "recall": 0.7933,
+    "f1": 0.3622,
+    "confusion_matrix": [
+      [
+        1358,
+        463
+      ],
+      [
+        37,
+        142
+      ]
+    ],
+    "feature_importance": [
+      {
+        "feature": "attendance_percentage",
+        "importance": 0.744946
+      },
+      {
+        "feature": "avg_assignment_score",
+        "importance": 0.641204
+      },
+      {
+        "feature": "engagement_index",
+        "importance": 0.422464
+      },
+      {
+        "feature": "disciplinary_actions",
+        "importance": 0.350881
+      },
+      {
+        "feature": "academic_risk_score",
+        "importance": 0.347899
+      },
+      {
+        "feature": "internet_access",
+        "importance": 0.132881
+      },
+      {
+        "feature": "resource_utilization_score",
+        "importance": 0.131081
+      },
+      {
+        "feature": "semester",
+        "importance": 0.111047
+      },
+      {
+        "feature": "hostel_resident",
+        "importance": 0.093037
+      },
+      {
+        "feature": "lms_login_frequency",
+        "importance": 0.047863
+      },
+      {
+        "feature": "library_visits_per_month",
+        "importance": 0.040158
+      },
+      {
+        "feature": "composite_dropout_risk",
+        "importance": 0.034554
+      },
+      {
+        "feature": "attendance_volatility",
+        "importance": 0.022193
+      }
+    ],
+    "cv_auc_mean": 0.8277,
+    "cv_auc_std": 0.0065
+  },
+  "random_forest": {
+    "roc_auc": 0.8442,
+    "precision": 0.5231,
+    "recall": 0.3799,
+    "f1": 0.4401,
+    "confusion_matrix": [
+      [
+        1759,
+        62
+      ],
+      [
+        111,
+        68
+      ]
+    ],
+    "feature_importance": [
+      {
+        "feature": "attendance_percentage",
+        "importance": 0.175962
+      },
+      {
+        "feature": "engagement_index",
+        "importance": 0.153808
+      },
+      {
+        "feature": "composite_dropout_risk",
+        "importance": 0.143179
+      },
+      {
+        "feature": "academic_risk_score",
+        "importance": 0.119736
+      },
+      {
+        "feature": "avg_assignment_score",
+        "importance": 0.103811
+      },
+      {
+        "feature": "attendance_volatility",
+        "importance": 0.095055
+      },
+      {
+        "feature": "lms_login_frequency",
+        "importance": 0.067187
+      },
+      {
+        "feature": "resource_utilization_score",
+        "importance": 0.042177
+      },
+      {
+        "feature": "semester",
+        "importance": 0.036057
+      },
+      {
+        "feature": "library_visits_per_month",
+        "importance": 0.027681
+      },
+      {
+        "feature": "disciplinary_actions",
+        "importance": 0.022876
+      },
+      {
+        "feature": "hostel_resident",
+        "importance": 0.006611
+      },
+      {
+        "feature": "internet_access",
+        "importance": 0.00586
+      }
+    ],
+    "cv_auc_mean": 0.8161,
+    "cv_auc_std": 0.0104
+  },
+  "gradient_boosting": {
+    "roc_auc": 0.8441,
+    "precision": 0.6203,
+    "recall": 0.2737,
+    "f1": 0.3798,
+    "confusion_matrix": [
+      [
+        1791,
+        30
+      ],
+      [
+        130,
+        49
+      ]
+    ],
+    "feature_importance": [
+      {
+        "feature": "attendance_percentage",
+        "importance": 0.333823
+      },
+      {
+        "feature": "composite_dropout_risk",
+        "importance": 0.161633
+      },
+      {
+        "feature": "academic_risk_score",
+        "importance": 0.104722
+      },
+      {
+        "feature": "engagement_index",
+        "importance": 0.099039
+      },
+      {
+        "feature": "avg_assignment_score",
+        "importance": 0.085152
+      },
+      {
+        "feature": "attendance_volatility",
+        "importance": 0.049152
+      },
+      {
+        "feature": "lms_login_frequency",
+        "importance": 0.047384
+      },
+      {
+        "feature": "resource_utilization_score",
+        "importance": 0.039279
+      },
+      {
+        "feature": "semester",
+        "importance": 0.033207
+      },
+      {
+        "feature": "disciplinary_actions",
+        "importance": 0.019208
+      },
+      {
+        "feature": "library_visits_per_month",
+        "importance": 0.018434
+      },
+      {
+        "feature": "hostel_resident",
+        "importance": 0.004919
+      },
+      {
+        "feature": "internet_access",
+        "importance": 0.004048
+      }
+    ],
+    "cv_auc_mean": 0.8288,
+    "cv_auc_std": 0.0101
+  }
+}

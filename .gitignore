@@ -1,0 +1,46 @@
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+ENV/
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb~
+
+# Data (keep raw csv committed for demo)
+# data/processed/*.csv   ← INCLUDED for Streamlit Cloud deployment
+# data/processed/*.parquet
+*.db
+*.duckdb
+
+# Models — INCLUDED for Streamlit Cloud deployment
+# models/*.joblib
+# models/*.pkl
+
+# Env
+.env
+.env.*
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Test artifacts
+.pytest_cache/
+htmlcov/
+.coverage
