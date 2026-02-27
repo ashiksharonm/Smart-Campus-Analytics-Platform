@@ -18,29 +18,8 @@ Educational institutions are sitting on vast amounts of student interaction data
 
 ## 🏗️ System Architecture
 
-```
-┌─────────────────────────────────────────────────────────────────┐
-│              Smart Campus Analytics Platform                    │
-│                                                                 │
-│  ┌──────────────┐    ┌───────────────┐    ┌──────────────────┐  │
-│  │  Data Layer  │    │   ML Layer    │    │   API Layer      │  │
-│  │              │    │               │    │                  │  │
-│  │ generate_    │ →  │  train.py     │ →  │ FastAPI /predict │  │
-│  │ data.py      │    │  LR/RF/GB     │    │ /batch_predict   │  │
-│  │ clean.py     │    │  metrics.py   │    │ /eda-summary     │  │
-│  │ engineer.py  │    │               │    │ /model-metrics   │  │
-│  └──────────────┘    └───────────────┘    └──────────────────┘  │
-│                                                 ↓               │
-│  ┌──────────────────────────────────────────────────────────┐   │
-│  │          Streamlit Dashboard (5-page UI)                 │   │
-│  │  Overview · EDA Explorer · Prediction Studio ·           │   │
-│  │  Insights & Recommendations · About                     │   │
-│  └──────────────────────────────────────────────────────────┘   │
-│                                                                 │
-│  Storage: SQLite/DuckDB/CSV  ·  CI/CD: GitHub Actions           │
-│  Containerisation: Docker + Docker Compose                      │
-└─────────────────────────────────────────────────────────────────┘
-```
+<img width="1696" height="944" alt="image" src="https://github.com/user-attachments/assets/ae2209d6-8fc9-4611-a673-50b7c61ec6c8" />
+
 
 ---
 
