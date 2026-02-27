@@ -42,6 +42,9 @@ jobs:
       - name: Run feature engineering
         run: python src/features/engineer.py
 
+      - name: Train ML models
+        run: PYTHONPATH=. python src/models/train.py
+
       - name: Run unit tests
         run: |
           PYTHONPATH=. python -m pytest tests/ -v --tb=short -x -p no:web3
